@@ -1,0 +1,22 @@
+Our analyzer program must to analyze C++ keywords,functions,classes and variables.
+Return count of that
+
+first, we need data files where our keywords and others that we need to use to find
+after that, we created our analyzer file for the program
+
+what I do step by step`
+
+1.  create a hash board for saving 
+2. open the c++ file and read
+3. create a function for analyzer keywords
+    here I create loops for checking if in the file are keywords and 
+    if was add our dictionary "keywords" value of 1 point
+    and also sending our other function arguments 
+4. create a function that returns the count of variables and other functions for functions count.
+    and one more function for the class count in our c++ file
+5. in function count function we are sending an argument to function_argument_count for checking 
+    how much argument each function hash board
+6. and in every function result we send our dictionary for showing our analyze
+
+
+/// sorry if there was a bad code, I am still trying to get a more easy way for this problem :)
